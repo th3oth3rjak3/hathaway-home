@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "hathaway-homepage": {
+      "hosting": {
+        "hathaway-home": [
+          "hathaway-homepage"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "hathaway-homepage"
+  }
+}

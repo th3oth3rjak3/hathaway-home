@@ -1,0 +1,32 @@
+<mat-card class="carousel-wrapper">
+  <mat-card-header class="card-header">
+    <mat-card-title class="card-title">The Hathaway Family</mat-card-title>
+  </mat-card-header>
+  <ngb-carousel
+    #carousel
+    *ngIf="images"
+    [pauseOnFocus]="true"
+    [pauseOnHover]="true"
+    [interval]="5000"
+    [showNavigationIndicators]="true"
+  >
+    <ng-template ngbSlide *ngFor="let img of images; let i = index">
+      <div class="image-wrapper">
+        <img mat-card-image [src]="images[i]" alt="" />
+      </div>
+    </ng-template>
+  </ngb-carousel>
+  <mat-card-content class="carousel-content"
+    ><button
+      class="carousel-pause"
+      mat-raised-button
+      matTooltip="Play or pause the image slideshow"
+      matTooltipPosition="after"
+      matTooltipShowDelay="1000"
+      color="primary"
+      (click)="togglePaused()"
+    >
+      {{ getPaused() ? "Play" : "Pause" }}
+    </button></mat-card-content
+  >
+</mat-card>

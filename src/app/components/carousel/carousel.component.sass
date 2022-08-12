@@ -1,0 +1,333 @@
+.card-header
+    justify-content: center
+
+.card-title
+    margin: 10px
+
+.carousel-pause
+    box-shadow: 4px 4px 8px black !important
+
+    &:hover
+        transform: scale(1.05)
+
+    &:active
+        transform: scale(.95)
+
+.carousel-content
+    display: flex
+    justify-content: center
+    margin-top: 10px
+
+// Impossibly small devices
+.carousel-wrapper
+    display: block
+    margin-left: auto
+    margin-right: auto
+    max-height: 85%
+    max-width: 85%
+    margin-top: 50px
+    margin-bottom: 50px
+    box-shadow: 5px 5px 15px black !important
+    
+.image-wrapper img
+    height: auto
+    max-width: 75%
+    object-fit: contain
+    margin: auto
+
+// Small Phone Vertical
+@media only screen and (min-width: 300px) and (orientation: portrait)
+    .carousel-wrapper
+        display: block
+        margin-left: auto
+        margin-right: auto
+        max-height: 85%
+        max-width: 85%
+        margin-top: 50px
+        margin-bottom: 50px
+        box-shadow: 5px 5px 15px black !important
+        
+    .image-wrapper img
+        height: 300px
+        max-width: 75%
+        object-fit: contain
+        margin: auto
+
+// Small Phone Horizontal
+@media only screen and (min-height: 300px) and (orientation: landscape)
+    .carousel-wrapper
+        display: block
+        margin-left: auto
+        margin-right: auto
+        max-height: 85%
+        max-width: 50%
+        margin-top: 50px
+        margin-bottom: 50px
+        box-shadow: 5px 5px 15px black !important
+        
+    .image-wrapper img
+        height: 100px
+        max-width: 75%
+        object-fit: contain
+        margin: auto
+
+// Phone vertical
+@media only screen and (min-width: 400px) and (orientation: portrait)
+    .carousel-wrapper
+        display: block
+        margin-left: auto
+        margin-right: auto
+        max-height: 85%
+        max-width: 85%
+        margin-top: 50px
+        margin-bottom: 50px
+        box-shadow: 5px 5px 15px black !important
+        
+    .image-wrapper img
+        height: 300px
+        max-width: 75%
+        object-fit: contain
+        margin: auto
+
+// Phone Horizontal
+@media only screen and (min-height: 400px) and (orientation: landscape)
+    .carousel-wrapper
+        display: block
+        margin-left: auto
+        margin-right: auto
+        max-height: 85%
+        max-width: 50%
+        margin-top: 50px
+        margin-bottom: 50px
+        box-shadow: 5px 5px 15px black !important
+        
+    .image-wrapper img
+        height: 200px
+        max-width: 75%
+        object-fit: contain
+        margin: auto
+
+// Small Tablet Vertical
+@media only screen and (min-width: 600px) and (orientation: portrait)
+    .carousel-wrapper
+        display: block
+        margin-left: auto
+        margin-right: auto
+        max-height: 85%
+        max-width: 85%
+        margin-top: 50px
+        margin-bottom: 50px
+        box-shadow: 5px 5px 15px black !important
+        
+    .image-wrapper img
+        height: 500px
+        max-width: 75%
+        object-fit: contain
+        margin: auto
+
+// Small Tablet horizontal
+@media only screen and (min-height: 600px) and (orientation: landscape)
+    .carousel-wrapper
+        display: block
+        margin-left: auto
+        margin-right: auto
+        max-height: 85%
+        max-width: 50%
+        margin-top: 50px
+        margin-bottom: 50px
+        box-shadow: 5px 5px 15px black !important
+        
+    .image-wrapper img
+        height: 350px
+        max-width: 75%
+        object-fit: contain
+        margin: auto
+
+// Large Tablet Vertical
+@media only screen and (min-width: 800px) and (orientation: portrait)
+    .carousel-wrapper
+        display: block
+        margin-left: auto
+        margin-right: auto
+        max-height: 85%
+        max-width: 85%
+        margin-top: 50px
+        margin-bottom: 50px
+        box-shadow: 5px 5px 15px black !important
+        
+    .image-wrapper img
+        height: 750px
+        max-width: 75%
+        object-fit: contain
+        margin: auto
+
+// Large Tablet horizontal
+@media only screen and (min-height: 800px) and (orientation: landscape)
+    .carousel-wrapper
+        display: block
+        margin-left: auto
+        margin-right: auto
+        max-height: 85%
+        max-width: 50%
+        margin-top: 50px
+        margin-bottom: 50px
+        box-shadow: 5px 5px 15px black !important
+        
+    .image-wrapper img
+        height: 500px
+        max-width: 75%
+        object-fit: contain
+        margin: auto
+
+// Large Screen Vertical
+@media only screen and (min-width: 1000px) and (orientation: portrait)
+    .carousel-wrapper
+        display: block
+        margin-left: auto
+        margin-right: auto
+        max-height: 85%
+        max-width: 85%
+        margin-top: 50px
+        margin-bottom: 50px
+        box-shadow: 5px 5px 15px black !important
+        
+    .image-wrapper img
+        height: 1000px
+        max-width: 75%
+        object-fit: contain
+        margin: auto
+
+// Large Scren Horizontal
+@media only screen and (min-height: 1000px) and (orientation: landscape) 
+    .carousel-wrapper
+        display: block
+        margin-left: auto
+        margin-right: auto
+        max-height: 85%
+        max-width: 50%
+        margin-top: 50px
+        margin-bottom: 50px
+        box-shadow: 5px 5px 15px black !important
+        
+    .image-wrapper img
+        height: 700px
+        max-width: 75%
+        object-fit: contain
+        margin: auto
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)
+@media only screen and (   min--moz-device-pixel-ratio: 2) and (orientation: portrait)
+@media only screen and (     -o-min-device-pixel-ratio: 2/1) and (orientation: portrait)
+@media only screen and (        min-device-pixel-ratio: 2) and (orientation: portrait)
+@media only screen and (                min-resolution: 192dpi) and (orientation: portrait)
+@media only screen and (                min-resolution: 2dppx) and (orientation: portrait)
+    .carousel-wrapper
+        display: block
+        margin-left: auto
+        margin-right: auto
+        max-height: 85%
+        max-width: 85%
+        margin-top: 50px
+        margin-bottom: 50px
+        box-shadow: 5px 5px 15px black !important
+        
+    .image-wrapper img
+        max-width: 75%
+        object-fit: contain
+        margin: auto
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape)
+@media only screen and (   min--moz-device-pixel-ratio: 2) and (orientation: landscape)
+@media only screen and (     -o-min-device-pixel-ratio: 2/1) and (orientation: landscape)
+@media only screen and (        min-device-pixel-ratio: 2) and (orientation: landscape)
+@media only screen and (                min-resolution: 192dpi) and (orientation: landscape)
+@media only screen and (                min-resolution: 2dppx) and (orientation: landscape)
+    .carousel-wrapper
+        display: block
+        margin-left: auto
+        margin-right: auto
+        max-height: 85%
+        max-width: 50%
+        margin-top: 50px
+        margin-bottom: 50px
+        box-shadow: 5px 5px 15px black !important
+        
+    .image-wrapper img
+        max-width: 75%
+        object-fit: contain
+        margin: auto
+	
+@media only screen and ( -webkit-max-device-pixel-ratio: 3) and (orientation: portrait)
+@media only screen and ( max--moz-device-pixel-ratio: 3) and (orientation: portrait)
+@media only screen and ( -o-max-device-pixel-ratio: 3/1) and (orientation: portrait)
+@media only screen and ( max-device-pixel-ratio: 3) and (orientation: portrait)
+@media only screen and  ( max-resolution: 288dpi) and (orientation: portrait)
+@media only screen and  ( max-resolution: 3dppx) and (orientation: portrait)
+    .carousel-wrapper
+        display: block
+        margin-left: auto
+        margin-right: auto
+        max-height: 85%
+        max-width: 85%
+        margin-top: 50px
+        margin-bottom: 50px
+        box-shadow: 5px 5px 15px black !important
+        
+    .image-wrapper img
+        max-width: 75%
+        object-fit: contain
+        margin: auto
+
+@media only screen and ( -webkit-max-device-pixel-ratio: 3) and (orientation: landscape)
+@media only screen and ( max--moz-device-pixel-ratio: 3) and (orientation: landscape)
+@media only screen and ( -o-max-device-pixel-ratio: 3/1) and (orientation: landscape)
+@media only screen and ( max-device-pixel-ratio: 3) and (orientation: landscape)
+@media only screen and  ( max-resolution: 288dpi) and (orientation: landscape)
+@media only screen and  ( max-resolution: 3dppx) and (orientation: landscape)
+    .carousel-wrapper
+        display: block
+        margin-left: auto
+        margin-right: auto
+        max-height: 85%
+        max-width: 50%
+        margin-top: 50px
+        margin-bottom: 50px
+        box-shadow: 5px 5px 15px black !important
+        
+    .image-wrapper img
+        max-width: 75%
+        object-fit: contain
+        margin: auto
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3.5) and (orientation: portrait)
+    .carousel-wrapper
+        display: block
+        margin-left: auto
+        margin-right: auto
+        max-height: 85%
+        max-width: 85%
+        margin-top: 50px
+        margin-bottom: 50px
+        box-shadow: 5px 5px 15px black !important
+        
+    .image-wrapper img
+        max-width: 75%
+        object-fit: contain
+        margin: auto
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3.5) and (orientation: landscape)
+    .carousel-wrapper
+        display: block
+        margin-left: auto
+        margin-right: auto
+        max-height: 85%
+        max-width: 50%
+        margin-top: 50px
+        margin-bottom: 50px
+        box-shadow: 5px 5px 15px black !important
+        
+    .image-wrapper img
+        max-width: 75%
+        object-fit: contain
+        margin: auto
