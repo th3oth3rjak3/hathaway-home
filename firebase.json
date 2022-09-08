@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "target": "hathaway-home",
+    "site": "hathaway-homepage",
     "public": "dist/hathaway-home",
     "ignore": [
       "**/.*"
